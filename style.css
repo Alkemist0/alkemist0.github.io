@@ -113,3 +113,9 @@ a:hover {
         padding: 0;
     }
 }
+
+@media screen and (max-height: 599px) {
+    body {
+        justify-content: flex-start;
+    }
+}
