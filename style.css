@@ -31,14 +31,14 @@ body {
 }
 
 #main-page {
-    min-width: 800px;
+    min-width: 850px;
 }
 #about {
-    max-width: 750px;
+    max-width: 850px;
 }
 
 #links {
-    min-width: 700px;
+    min-width: 850px;
 }
 
 h1, h2, p, li {
@@ -110,7 +110,10 @@ a:hover {
 
     li {
         display: block;
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
 
