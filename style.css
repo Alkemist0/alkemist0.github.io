@@ -88,6 +88,10 @@ a:hover {
 }
 
 @media screen and (max-width: 949px) {
+    body {
+        justify-content: flex-start;
+    }
+
     h1 {
         font-size: 4rem;
     }
@@ -107,11 +111,5 @@ a:hover {
     li {
         display: block;
         padding: 0;
-    }
-}
-
-@media screen and (max-height: 949px) {
-    body {
-        justify-content: flex-start;
     }
 }
